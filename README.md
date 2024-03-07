@@ -37,3 +37,10 @@ DESCRIBE users(table name)
 # To see the values in the tables 
 
 SELECT * FROM users
+
+# To enter into that database;
+
+USE new_database;
+
+# To SEE THWE PORT on which  runing
+SHOW VARIABLES LIKE 'port';
